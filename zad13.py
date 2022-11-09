@@ -1,6 +1,6 @@
 n = 7
 m = 10
-from random import seed
+from random import seed 
 from random import randint
 seed(123)
 a = []
