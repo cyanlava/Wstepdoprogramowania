@@ -1,5 +1,5 @@
-x = 58585
-#z jakiegos powodu nie dziala x = int(input)
+x = int(input("podaj liczbe"))
+
 
 
 
