@@ -1,9 +1,7 @@
-y = input
-x = int(y)
-print(x%10)
-print((x - x%10)/10 % 10)
-#to samo co wyzej, tylko liczba calkowita
-print((int)((x - x%10)/10 % 10))
+x = 58585
+#z jakiegos powodu nie dziala x = int(input)
+
+
 
 
 sum=0
