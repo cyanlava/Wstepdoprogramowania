@@ -1,6 +1,18 @@
-y = 37846
+y = input
+x = int(y)
+print(x%10)
+print((x - x%10)/10 % 10)
+#to samo co wyzej, tylko liczba calkowita
+print((int)((x - x%10)/10 % 10))
 
-for i in range(1, n, 1):
-    l = y/10
-    if l < 1:
-        print(l)
+
+sum=0
+pum=0
+
+for digit in str(x):
+    sum=sum + 1
+    pum=pum + int(digit)
+
+print(x)
+print(sum)
+print("suma cyfr wynosi ", pum)
