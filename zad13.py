@@ -14,3 +14,5 @@ for i in a:
 a=[randint(0, 20)] * n
 for i in range(n):
     a[i] = [randint(0,20)] * m
+
+    print("GIT CZY TY TO WIDZISZ")
