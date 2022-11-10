@@ -16,3 +16,8 @@ for i in range(n):
     a[i] = [randint(0,20)] * m
 
     print("GIT CZY TY TO WIDZISZ")
+
+    NO KURWA None
+
+
+    NO PRAERFAUIURHEWGFGREGWAJRVGJWKNVGKWK 
