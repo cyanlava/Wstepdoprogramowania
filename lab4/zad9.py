@@ -1,12 +1,6 @@
 liczba = int(input("Podaj bok trojkata"))
 
-n = []
-for i in range(0, liczba):
-    n.append("x")
-
-string = ""
-
-l = str(n)
-for i in n:
-    string=string+i
-    print(string)
+for i in range(liczba):
+    k = i + 1
+    w = liczba - k
+    print(" " * w + "x" * k)
