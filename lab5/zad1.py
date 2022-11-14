@@ -17,3 +17,8 @@ for i in range(len(a[0])):
     for j in range(len(a)):
         at[i][j]=0
     print(at[i])
+
+for i in range(n):
+    for j in range(m):
+        a[i][j] = randint(0, 20)
+        for o in range():
