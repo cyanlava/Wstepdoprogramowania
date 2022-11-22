@@ -1,13 +1,13 @@
-o = 9
-n = 2
+x = 19
+i = 2
+m=[]
+while x>i:
+    l=[]
+    for j in range(2,i):
+        if i%j == 0:
+            l.append(j)
+    if len(l) == 0:
+        m.append(i)
 
-l = []
-
-while o >= n:
-    for i in range(2, n):
-        if n%i == 0:
-            l.append(i)
-    n += 1
-
-print(l)
-
+    i+=1
+print(len(m))
