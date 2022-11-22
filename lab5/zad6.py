@@ -1,21 +1,13 @@
 o = 9
-n = 0
+n = 2
 
 l = []
+
 while o >= n:
-    for j in range(2, o):
-        m = []
-    
-        for i in range(2, j):
-            if j % i == 0:
-                m.append(i)
+    for i in range(2, n):
+        if n%i == 0:
+            l.append(i)
+    n += 1
 
+print(l)
 
-
-        if len(m) == 0:
-            l.append(j)
-            n = n + 1
-
-print(max(l))
-
-while n>=
