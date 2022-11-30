@@ -28,4 +28,4 @@ def obwod(p1, p2, p3):
         return o
     
 
-print(obwod([0, 0], [4, 4], [3, 3]))
+print(obwod([0, 0], [3, 3], [4, 4]))

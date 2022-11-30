@@ -1,4 +1,4 @@
-n = 7
+n = 3
 m = n
 from random import seed 
 from random import randint
