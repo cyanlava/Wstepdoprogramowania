@@ -39,9 +39,9 @@ def aktualizujlabirynt(macierz, ruch, gracz, sciana):
         a[gracz[0]][gracz[1]] = puste
         a[gracz[0]][gracz[1] + 1] = ludzik
         gracz[1]+=1
-    elif i == 'a' and a[gracz[0]][gracz[1]] != sciana:
+    elif i == 'a' and a[gracz[0]][gracz[1]-1] != sciana:
         a[gracz[0]][gracz[1]] = puste
-        a[gracz[0]][gracz[1]] = ludzik
+        a[gracz[0]][gracz[1]-1] = ludzik
         gracz[1]-=1
     
     

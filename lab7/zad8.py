@@ -37,6 +37,7 @@ def sumuj_wszystko(towar):
 def dodaj_towar(towar, nazwa,jednostka, ilosc, cena):
     entry = {'nazwa': str(nazwa), 'jednostka': str(jednostka), 'ilosc': int(ilosc), 'cena': int(cena)}
     towar.append(entry)
+    return towar
 
 def aktualizuj_ilosc(towar, nazwa, ilosc):
     toggle = 0
@@ -68,7 +69,7 @@ def filtr_jednostka(towar, jednostka):
                 
 
 def main():
-    a = filtr_jednostka(towar, 'g')
+    a = dodaj_towar(towar, 'gitara', 'kg', 9000, 5)
 
     
     print(a)
