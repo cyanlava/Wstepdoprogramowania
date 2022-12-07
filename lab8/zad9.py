@@ -1,32 +1,17 @@
+
+
 def factorize(n):
-    m = 2
-    lista =[]
-    if n<=m:
-        lista.append(n)
-    else:
-        while n%m != 0:
-            m+=1
-        if n==m:
-            lista.append(n)
-        else:
-            lista.append(m)
-            lista = lista + factorize(n//m)
-        print(lista)
-
-    
+    if n > 2:
+        i = 1
+        for i in range(2, n+1):
+            if n%i != 0:
+                i+=1
+            else:
+                if n/i >= 1:
+                    print(i)
+                    factorize(int(n/i))
+                    break    
+                
 
 
-
-def main():
-    factorize(50)
-
-if __name__ == '__main__':
-    main()
-
-
-
-
-while i<=n and n%i!=0:
-    i+=1
-    if (n%i==0)
-        retun 
+factorize(90)
