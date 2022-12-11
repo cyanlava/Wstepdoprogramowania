@@ -14,4 +14,4 @@ def factorize(n):
                 
 
 
-factorize(90)
+factorize(1743)
